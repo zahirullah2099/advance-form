@@ -2,15 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 *{padding: 0;margin: 0;box-sizing: border-box; font-family: 'Poppins', sans-serif;}
-
-body{
-    /* width: 100vw;
-    height: 100vh;
-    background-color: rgb(16, 145, 224); */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-}
 .container{
     width: 100vw;
     height: 100vh;
