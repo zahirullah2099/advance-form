@@ -101,14 +101,20 @@ button i {
         justify-content: center;
         padding: 20px;
     }
+    .signInSignUp{ 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .container .login {
         width: 60%;
+        padding: 10px;
     } 
     .upperButton, #registerButton {
         margin-top: 10px;
     }
     .inputFields input, .inputFields button {
-        width: 100%;
+        width: 90%;
     }
 }
 
