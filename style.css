@@ -90,3 +90,45 @@ button i {
     font-size: 15px; 
     padding-right: 10px;
 }
+
+
+
+/* *************************************** */
+/* For devices up to 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+    .container .login {
+        width: 60%;
+    } 
+    .upperButton, #registerButton {
+        margin-top: 10px;
+    }
+    .inputFields input, .inputFields button {
+        width: 100%;
+    }
+}
+
+/* For devices between 768px and 992px */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container .login {
+        width: 50%;
+    }
+}
+
+/* For devices between 993px and 1200px */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .container .login {
+        width: 40%;
+    }
+}
+
+/* For devices larger than 1200px */
+@media screen and (min-width: 1201px) {
+    .container .login {
+        width: 30%;
+    }
+}
