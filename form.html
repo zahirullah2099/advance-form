@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login and regestration form</title>
+    <link rel="stylesheet" href="form.css">
+    <!-- bootstrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+    <div class="login">
+            
+        <div class="signInSignUp">
+            <button class="upperButton" id="loginButton" onclick="openLoginForm()">login</button> 
+            <button class="" id="registerButton" onclick="openRegisterForm()">sign up</button> 
+        </div>
+        
+        <div class="inputFields " id="inputFields">
+            <input type="email" placeholder="email" required>
+            <input type="password" placeholder="password">
+            <a href="" class="forget-text">Forget password?</a>
+            <button class="login-btn"> Login </button>
+            <p>Don't have an account? <span class="link-text"> signUp </span></p>
+            <p>or</p>
+            <button class="facebook-btn"><i class="bi bi-facebook"></i> Login with facebook</button>
+            <button class="google-btn"><i class="bi bi-google"></i>Login with google</button>
+
+        </div>
+
+        <div class="inputFields hideTheRegister " id="RegisterInputFields">
+            <input type="text" placeholder="name"required>
+            <input type="password" placeholder="password" id="Password" >
+            <input type="password" placeholder="confirm password" id="confirmPassword">
+            <a href="" class="forget-text">Forget password?</a>
+            <button class="login-btn" onclick="print()"> Login </button>
+            <p>Already have an account? <span class="link-text"> signIn </span></p>
+            <p>or</p>
+            <button class="facebook-btn"><i class="bi bi-facebook"></i> Login with facebook</button>
+            <button class="google-btn"><i class="bi bi-google"></i>Login with google</button>
+
+        </div>
+
+    </div> 
+    </div> 
+
+    <script src="script.js"></script>
+    </body>
+    </html>

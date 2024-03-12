@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{padding: 0;margin: 0;box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(16, 145, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(21, 92, 246), purple);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container .login{
+    width: 30%; 
+    height: auto;
+    background-color: whitesmoke;
+
+}
+.signInSignUp{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ .upperButton{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, rgb(21, 92, 246), purple);
+    color: white;
+    border-radius: 20px;
+}
+.signInSignUp button{
+    border: none;
+    outline: none;
+} 
+.login{
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+}  
+/* .inputFields{
+    border: 1px solid red;
+} */
+.hideTheLogin{
+    visibility: hidden; 
+}
+.hideTheRegister{
+    display: none;
+}
+a, p{  
+    cursor: pointer;
+}
+.inputFields input, a, p{
+    width: 90%;
+    margin: 12px 0;
+    text-decoration: none;
+}
+.inputFields button{
+    display: block;
+    margin: 8px auto; 
+    width: 90%;
+    cursor: pointer;
+} 
+.inputFields input,  button{
+   padding: 10px;
+   outline: none;
+   border: 1px solid rgb(215, 211, 211);
+   border-radius: 5px;
+}
+.login-btn{
+    background: linear-gradient(45deg, rgb(21, 92, 246), purple);
+    color: whitesmoke;
+}
+.facebook-btn{
+    background: linear-gradient(45deg, rgb(21, 92, 246), purple);
+    color: whitesmoke;
+}
+.google-btn{
+    background:linear-gradient(45deg, rgb(0, 13, 255),rgb(10, 198, 10));
+    color: white;
+}
+.link-text{
+    color:  #0000EE ;
+} 
+button i { 
+    font-size: 15px; 
+    padding-right: 10px;
+}
