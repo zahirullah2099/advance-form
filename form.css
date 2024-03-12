@@ -4,17 +4,17 @@
 *{padding: 0;margin: 0;box-sizing: border-box; font-family: 'Poppins', sans-serif;}
 
 body{
-    width: 100vw;
+    /* width: 100vw;
     height: 100vh;
-    background-color: rgb(16, 145, 224);
-    display: flex;
+    background-color: rgb(16, 145, 224); */
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 .container{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(45deg, rgb(21, 92, 246), purple);
+    background: linear-gradient(45deg, rgb(121, 199, 232), rgb(227, 176, 227));
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -33,14 +33,16 @@ body{
  .upperButton{
     border: none;
     outline: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
     background: linear-gradient(45deg, rgb(21, 92, 246), purple);
     color: white;
-    border-radius: 20px;
+    border-radius: 15px;
+
 }
 .signInSignUp button{
     border: none;
     outline: none;
+    font-weight: bold;
 } 
 .login{
     padding: 15px 30px;
@@ -60,7 +62,7 @@ body{
 }
 a, p{  
     cursor: pointer;
-}
+} 
 .inputFields input, a, p{
     width: 90%;
     margin: 12px 0;
